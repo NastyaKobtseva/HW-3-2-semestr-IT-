@@ -1,0 +1,30 @@
+.red, .blue, .green {
+    position: absolute;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+.red {
+    z-index: 2;
+    background: rgb(239, 71, 71)
+}
+.blue {
+    background: rgb(11, 145, 189);
+    top: 102px;
+    left: 80px;
+    z-index: 3;
+}
+.green {
+    z-index: 2;
+    top: 193px;
+    left: 154px;
+    background: rgb(6, 214, 160);
+}
